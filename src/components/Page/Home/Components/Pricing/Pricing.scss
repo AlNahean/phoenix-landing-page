@@ -1,0 +1,72 @@
+.pricing-wrapper {
+  background-color: var(--my-bg-color-sc);
+
+  padding-top: var(--header-height);
+
+  .bg-holder-right {
+    background-image: url(../../../../../../public/assets/img/bg/bg-right-15.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    z-index: 2;
+
+    background-position: 100% 0%;
+    // background-color: red;
+  }
+  .bg-holder-left {
+    background-image: url(../../../../../../public/assets/img/bg/bg-left-15.png);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-repeat: no-repeat;
+
+    background-size: auto;
+  }
+
+  .most-popular {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    border-radius: 1rem;
+    z-index: 1;
+  }
+  .card {
+    background-color: var(--my-bg-color-sc) !important;
+    color: var(--my-color) !important;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+
+    .card-body {
+      border: 1px solid var(--card-border-transparent-color);
+      z-index: 2;
+      border-radius: 1rem;
+      background-color: var(--my-bg-color-sc) !important;
+    }
+
+    .pricing-card-icon {
+      height: 60px;
+    }
+  }
+
+  .checkmark-holder {
+    width: 20px;
+    .check-icon {
+      color: var(--my-color);
+      display: flex;
+      align-items: center;
+      polyline {
+        stroke: currentColor;
+      }
+    }
+  }
+}

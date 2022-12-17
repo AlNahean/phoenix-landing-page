@@ -1,0 +1,109 @@
+.testimonial-wrapper {
+  // --svg-height: 20vh;
+  .proxy-svg-height {
+    height: var(--svg-height);
+    width: 100%;
+  }
+  .ts1-wrapper {
+    background-color: var(--my-bg-color-sc);
+
+    .bg-holder-right {
+      position: absolute;
+      top: 10%;
+      right: 0px;
+      height: 100%;
+      width: 100%;
+      background-image: url(../../../../../../public/assets/img/bg/13.png);
+      background-repeat: no-repeat;
+
+      background-position: 100% 0%;
+    }
+    .bg-holder-left {
+      position: absolute;
+      top: 10%;
+      right: 0px;
+      height: 100%;
+      width: 100%;
+      background-image: url(../../../../../../public/assets/img/bg/bg-right-21.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 0% 0%;
+    }
+    .svg-top {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: var(--svg-height);
+      color: var(--my-bg-color);
+    }
+
+    .testimonial-s1 {
+      min-height: calc(50vh - var(--header-height));
+      // height: calc(100vh - var(--header-height));
+
+      .slide-item {
+        .slide-img-wrapper {
+          height: 100%;
+          width: 100%;
+          padding: 2rem;
+          margin: 0.4rem;
+        }
+        .slide-img-container {
+          // height: 75%;
+          // width: 75%;
+        }
+        .slide-img-bg {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+
+          z-index: 1;
+          background-image: url(../../../../../../public//assets//img//bg/bg-2.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          transform: scale(1.5);
+        }
+        img {
+          position: relative;
+          z-index: 2;
+          transform: rotate(-3deg);
+          border-radius: 0.5rem;
+        }
+      }
+    }
+  }
+  .ts2-wrapper {
+    background-image: url(../../../../../../public//assets/img/bg/bg-13.png);
+    background-size: cover;
+    .svg-top {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: var(--svg-height);
+
+      color: var(--my-bg-color-sc);
+    }
+    .svg-bottom {
+      position: absolute;
+      bottom: -1px;
+      left: 0px;
+      width: 100%;
+      transform: rotate(180deg);
+      height: var(--svg-height);
+
+      color: var(--my-bg-color-sc);
+    }
+    .testimonial-s2 {
+      // min-height: calc(50vh - var(--header-height));
+
+      .heading-text {
+        h1 {
+          font-size: calc(2rem + 2.5vw);
+        }
+      }
+    }
+  }
+}

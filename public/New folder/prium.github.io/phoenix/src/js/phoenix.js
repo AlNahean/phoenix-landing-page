@@ -1,0 +1,77 @@
+/* eslint-disable import/no-extraneous-dependencies */
+import utils, { docReady } from './utils';
+
+import docComponentInit from './docs';
+import anchorJSInit from './theme/anchor';
+import bigPictureInit from './theme/bigPicture';
+import basicEchartsInit from './theme/charts/echarts/basic-echarts';
+import zeroRoadmapChartInit from './theme/charts/echarts/zero-rodamap-chart';
+import choicesInit from './theme/choices';
+import countupInit from './theme/countUp';
+import detectorInit from './theme/detector';
+import dropzoneInit from './theme/dropzone';
+import featherIconsInit from './theme/featherIcons';
+import flatpickrInit from './theme/flatpickr';
+import fromValidationInit from './theme/form-validation';
+import glightboxInit from './theme/glightbox';
+import initMap from './theme/googleMap';
+import iconCopiedInit from './theme/icons';
+import isotopeInit from './theme/isotope';
+import listInit from './theme/list';
+import handleNavbarVerticalCollapsed from './theme/navbar-vertical';
+import phoenixOffcanvasInit from './theme/phoenix-offcanvas';
+import popoverInit from './theme/popover';
+import productDetailsInit from './theme/product-details';
+import quantityInit from './theme/quantity';
+import ratingInit from './theme/rater';
+import responsiveNavItemsInit from './theme/responsiveNavItems';
+import searchInit from './theme/search';
+import simplebarInit from './theme/simplabar';
+import swiperInit from './theme/swiper';
+import themeControl from './theme/theme-control';
+import tinymceInit from './theme/tinymce';
+import toastInit from './theme/toast';
+import todoOffcanvasInit from './theme/todoOffCanvas';
+import tooltipInit from './theme/tooltip';
+import wizardInit from './theme/wizard';
+import navbarInit from './theme/navbar-soft-on-scroll';
+
+window.initMap = initMap;
+docReady(detectorInit);
+docReady(simplebarInit);
+docReady(toastInit);
+docReady(tooltipInit);
+docReady(featherIconsInit);
+docReady(basicEchartsInit);
+docReady(listInit);
+docReady(anchorJSInit);
+docReady(popoverInit);
+docReady(fromValidationInit);
+docReady(docComponentInit);
+docReady(swiperInit);
+docReady(productDetailsInit);
+docReady(ratingInit);
+docReady(quantityInit);
+docReady(dropzoneInit);
+docReady(choicesInit);
+docReady(tinymceInit);
+docReady(responsiveNavItemsInit);
+docReady(zeroRoadmapChartInit);
+docReady(flatpickrInit);
+docReady(iconCopiedInit);
+docReady(isotopeInit);
+docReady(bigPictureInit);
+docReady(countupInit);
+docReady(phoenixOffcanvasInit);
+docReady(todoOffcanvasInit);
+docReady(wizardInit);
+docReady(glightboxInit);
+docReady(themeControl);
+docReady(searchInit);
+docReady(handleNavbarVerticalCollapsed);
+docReady(navbarInit);
+docReady(themeControl);
+
+export default {
+  utils
+};

@@ -1,0 +1,8 @@
+.blog-page-wrapper {
+  padding-top: calc(var(--header-height));
+  background-color: var(--my-bg-color-sc);
+  .card {
+    background-color: var(--my-bg-colo-sc);
+    border: 1px solid var(--card-border-transparent-color);
+  }
+}

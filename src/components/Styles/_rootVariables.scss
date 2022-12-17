@@ -1,0 +1,38 @@
+:root {
+  --my-color: #fff;
+  --my-color-sc: hsl(0deg 0% 100% / 65%) (145, 162, 240);
+  --my-color-sc-2: #3b3e40(145, 162, 240);
+  --my-color2: #3b3e40;
+  --my-bg-color: #0f111a;
+  --my-bg-color-sc: #141824;
+
+  --my-brand-color: rgb(229, 120, 11);
+  --my-brand-transparent-bg: rgba(11, 15, 229, 0.15);
+
+  --my-header-bg: #141824;
+  --my-header-bg-sc: #141824;
+
+  --card-border-transparent-color: rgba(13, 109, 253, 0.3);
+
+  --hsb-item-borderstyle: dashed;
+  --hsb-item-bordercolor: rgba(255, 255, 255, 0.2);
+
+  // heights
+  --svg-height: 15vh;
+
+  --my-gradiant-highlight: linear-gradient(
+    90deg,
+    #d95e00 30%,
+    #ffa353,
+    #d95e00 70%
+  );
+
+  --header-height: 70px;
+}
+
+@media screen and (min-width: 800px) {
+  :root {
+    --svg-height: 30vh;
+    // --my-brand-color: rgb(13, 255, 0);
+  }
+}

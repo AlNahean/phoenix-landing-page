@@ -1,0 +1,73 @@
+.newsletter-wrapper {
+  position: relative;
+  background-color: var(--my-bg-color-sc);
+  .bg-holder-right {
+    background-image: url(../../../../../../public/assets/img/bg/bg-right-20.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    z-index: 2;
+
+    background-position: 100% 0%;
+    // background-color: red;
+  }
+  .bg-holder-left {
+    background-image: url(../../../../../../public/assets/img/bg/bg-left-20.png);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-repeat: no-repeat;
+
+    background-size: auto;
+  }
+  .card {
+    background-color: var(--my-bg-color);
+    // background-size: cover;
+    // background-position: center;
+    border-radius: 1rem;
+
+    border: 1px solid var(--card-border-transparent-color);
+
+    box-shadow: 0px 0px 25px 15px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    .newsletter-motto {
+      font-size: calc(2rem + 2vw);
+    }
+
+    .card-body {
+      background-image: url(../../../../../../public//assets/img//bg/bg-18.png);
+    }
+
+    input {
+      background-color: var(--my-bg-color);
+      border: 1px solid var(--card-border-transparent-color);
+
+      &:focus {
+        box-shadow: none;
+        color: var(--my-color);
+      }
+    }
+  }
+
+  .botttom-clip {
+    clip-path: polygon(0 75%, 100% 0, 100% 100%, 0% 100%);
+    height: calc(var(--svg-height) * 2);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(../../../../../../public/assets/img/bg/bg-19.png);
+    background-size: cover;
+    z-index: 1;
+  }
+  .botttom-clip-proxy {
+    height: calc(var(--svg-height) / 2);
+  }
+}

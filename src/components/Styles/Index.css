@@ -1,0 +1,21 @@
+@import url(./_rootVariables.scss);
+@import url(../../../node_modules/bootstrap/dist/css/bootstrap.css);
+@import url(./_commonCustom.scss);
+[data-theme-color="light"] {
+  --my-color: black;
+  --my-color-sc: hsl(0deg 0% 100% / 65%) (145, 162, 240);
+  --my-color-sc-2: #3b3e40(145, 162, 240);
+  --my-color2: #3b3e40;
+  --my-bg-color: #fff;
+  --my-bg-color-sc: #fff;
+  --my-header-bg: #fff;
+  --my-header-bg-sc: rgba(65, 68, 70, 0.9);
+  --my-gradiant-highlight: linear-gradient(
+    90deg,
+    #d95e00 30%,
+    #ffa353,
+    #d95e00 70%
+  );
+  --header-height: 70px;
+}
+/*# sourceMappingURL=Index.css.map */

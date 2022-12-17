@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,0BAAI;AACZ,OAAO,CAAC,2DAAI;AACZ,OAAO,CAAC,yBAAI;CAKZ,AAAA,AAAA,gBAAC,CAAiB,OAAO,AAAxB,EAA0B;EACzB,UAAU,CAAA,MAAC;EACX,aAAa,CAAA,wCAAC;EACd,eAAe,CAAA,uBAAC;EAChB,WAAW,CAAA,QAAC;EACZ,aAAa,CAAA,KAAC;EACd,gBAAgB,CAAA,KAAC;EACjB,cAAc,CAAA,KAAC;EAEf,iBAAiB,CAAA,sBAAC;EAElB,uBAAuB,CAAA;;;;;GAAC;EAOxB,eAAe,CAAA,KAAC;CACjB",
+    "sources": [
+        "Index.scss"
+    ],
+    "names": [],
+    "file": "Index.css"
+}
